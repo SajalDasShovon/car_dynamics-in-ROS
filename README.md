@@ -5,10 +5,15 @@ The kinematic car model is a simplified model used in vehicle dynamics.
 
 
 et the state vector x consist of:
+
 x : Position in the x-direction (global frame).
+
 y : Position in the y-direction .
+
 θ : Heading angle (relative to the x-axis).
+
 δ : Steering angle (front wheel's orientation relative to the car's heading).
+
 
 input vector is:
 u=[v, ϕ]   velocity & steering rate
